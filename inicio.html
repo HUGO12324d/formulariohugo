@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://fonts.google.com/specimen/Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="contenedorcentrado">
+            <div id="login">
+                <form action="usuario.php" id="loginform " method="post">
+                    <label for=""> Usuario</label> 
+                    <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario" required> 
+                    <label for="">Contraseña</label>
+                    <input type="password" id="password" name="password" placeholder="Ingresa tu Contraseña" required>
+                    <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                </form>
+            </div>
+            <div id="derecho">
+                <div class="titulo">
+                    Bienvenido
+                </div>
+                <hr>
+                <div class="pieform">
+                    <a href="#">¿Perdiste tu contraseña?</a>
+                    <a href="#">¿No tienes cuenta? Registrate</a>
+                    <hr>
+                    <a href="#">Volver</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

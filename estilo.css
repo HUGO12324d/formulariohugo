@@ -1,0 +1,114 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    margin: 0;
+    background: rgb(31,218,135);
+background: linear-gradient(90deg, rgb(31, 218, 109) 46%, rgb(89, 89, 185) 81%, rgb(69, 146, 161) 100%);
+color: black;
+}
+/*contenedor*/
+#contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+#contenedorcentrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-width: 380px;
+    max-width: 900px;
+    width: 90%;
+    background-color: rgb(8, 255, 160);
+    border-radius: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+#login{
+    width: 100%;
+    max-width: 320px;
+    padding: 30px 30px 50px 30px;
+    background-color: rgb(34, 168, 221);
+    box-shadow: 0px 0px 5px 5px rgb(0,0,0,0.5);
+    border-radius: 3px 3px 3px 3px;
+    box-sizing: border-box;
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+#login label{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
+    color: #000000;
+}
+#login input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+    color: blue;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+}
+#login input::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 204, 204);
+}
+#login button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+    color: black;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    background-color:rgb(114, 250, 205);
+    margin-top: 10px;
+}
+#login button:hover{
+    background-color: #21c900;
+    color: aliceblue;
+}
+#derecho{
+    text-align: center;
+    width: 100%;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    padding: 20px 20px 20px 50px;
+    box-sizing: border-box;
+}
+.titulo{
+    font-size: 300%;
+    color: rgb(21, 120, 233);
+}
+hr{
+    border-top: 1px solid #000000;
+    border-bottom: 1PX solid #ffffff;
+}
+.pieform{
+    display: block;
+    text-decoration: none;
+    color: azure;
+    margin-top: 15px;
+}
+.pieform a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: 3px;
+}
+.pieform a:hover{
+    color: rgb(0, 49, 185); 
+}
