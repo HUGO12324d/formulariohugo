@@ -4,7 +4,7 @@ $password = $_POST['password'];
 
 if ($usuario == 'hugo' && $password == 'callejas') {
     echo "Bienvenido al sistema Hugo Callejas";
-    header("refresh:5; url=inicio.html"); 
+    header("refresh:5; url=indexs.html"); 
 } elseif ($usuario == 'victor' && $password == 'marroquin') {
     echo "Bienvenido Victor Marroquin";
 } else {
